@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="src/main.js" type="module"></script>
+</head>
+
+<body>
+    <main class="game">
+        <div class="screen1">
+            <div class="header-div">
+                <h1>Jogo da adivinhação</h1>
+                <p>Acerte o número entre 0 e 10</p>
+            </div>
+            <form class="play">
+                <input id="inputNumber" type="number" max="10">
+                <button id="btnTry">Tentar</button>
+            </form>
+            <span id="#valorNegativo" class="hide">Experimente um número entre 0 e 10!</span>
+        </div>
+
+        <div class="screen2 hide">
+            <h2>Acertou em 3 tentativas!</h2>
+            <button id="btnReset">Jogar de novo</button>
+        </div>
+    </main>
+
+</body>
+
+</html>

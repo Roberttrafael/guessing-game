@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #5f02ff, #b60cc5);
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.game {
+    height: 374px;
+    width: 528px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 64px;
+    border-radius: 6px;
+}
+
+.screen1 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+
+.header-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.game h1 {
+    font-size: 24px;
+    color: #34355B;
+}
+
+.game p {
+    font-size: 16px;
+    color: #34355B;
+    opacity: 80%;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.play input,
+button {
+    height: 53px;
+    width: 43px;
+    padding: 16px;
+    border: none;
+    outline: none;
+
+}
+
+.play input {
+    padding: 16px;
+    background-color: #DCE2E9;
+    border-radius: 4px 0 0 4px;
+    width: 66px;
+
+}
+
+.play input {
+    font-size: 16px;
+    color: #34355B;
+}
+
+.play button {
+    background: linear-gradient(135deg, #5f02ff, #b60cc5);
+    border: none;
+    outline: none;
+    border-radius: 0 4px 4px 0;
+    width: 92px;
+    color: white;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+
+}
+
+.play button:hover {
+    background: linear-gradient(135deg, #5f02ffb7, #b60cc5a7);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.screen1 span {
+    font-size: 8px;
+    margin: auto;
+    color: #34355B;
+}
+
+/* SCREEN 2 */
+
+.screen2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.screen2 h2 {
+    font-size: 24px;
+    color: #34355B;
+    line-height: 150%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+
+.screen2 button {
+    padding: 16px;
+    width: 166px;
+    background: linear-gradient(135deg, #5f02ff, #b60cc5);
+
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #5f02ffb7, #b60cc5a7);
+    transition: background 0.3s ease-in-out;
+}
+
+.hide {
+    display: none;
+}
